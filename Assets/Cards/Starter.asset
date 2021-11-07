@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c1d43d4652ad141a69b56b36bf9ee8, type: 3}
+  m_Name: Starter
+  m_EditorClassIdentifier: 
+  title: Congratulations, your Majesty !
+  description: You've finally achieved it ! You are the one and only Prince of Lyon.
+    How will you reign ?
+  characterImage: {fileID: 0}
+  leftChoice:
+    text: I will uphold the Traditions firmly
+    reactionaryValue: 2
+    progressiveValue: -1
+    masqueradeValue: 2
+    boonValue: 0
+    anarchValue: -3
+    addCard: {fileID: 0}
+    howToAddCard: 0
+  rightChoice:
+    text: I will be a just and kind ruler
+    reactionaryValue: -2
+    progressiveValue: 2
+    masqueradeValue: 0
+    boonValue: 0
+    anarchValue: 0
+    addCard: {fileID: 0}
+    howToAddCard: 0

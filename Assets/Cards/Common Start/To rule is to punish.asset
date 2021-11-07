@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c1d43d4652ad141a69b56b36bf9ee8, type: 3}
+  m_Name: To rule is to punish
+  m_EditorClassIdentifier: 
+  title: To rule is to punish
+  description: It is traditionnal to have a Scourge, a sanctified killer, to protect
+    the domain from external menaces. It's an old, violent custom, frowned upon by
+    more progressive kindreds.
+  characterImage: {fileID: 0}
+  leftChoice:
+    text: I will have a scourge. Our city needs it
+    reactionaryValue: 8
+    progressiveValue: -5
+    masqueradeValue: 0
+    boonValue: 0
+    anarchValue: -5
+    addCard: {fileID: 11400000, guid: e4963a9602eda4f48bfcc2795a86b154, type: 2}
+    howToAddCard: 0
+  rightChoice:
+    text: No. It's a violent and old fashioned  custom
+    reactionaryValue: -10
+    progressiveValue: 5
+    masqueradeValue: 0
+    boonValue: 0
+    anarchValue: 3
+    addCard: {fileID: 0}
+    howToAddCard: 0

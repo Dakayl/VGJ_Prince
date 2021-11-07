@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870c761fb3ba27a4295739993f3f0bc4, type: 3}
+  m_Name: IVB
+  m_EditorClassIdentifier: 
+  princeName: Irina Van Beckendorff
+  startingCard: {fileID: 11400000, guid: 12f4b0e3f55dfa74288cd0d803c11402, type: 2}
+  starterDeck: {fileID: 11400000, guid: 559dc226d6c389145b6b0697df1c7548, type: 2}
+  eventDeck: {fileID: 11400000, guid: fa8f14b414fb6c54ea1de2f0bf1a4063, type: 2}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c1d43d4652ad141a69b56b36bf9ee8, type: 3}
+  m_Name: The rack
+  m_EditorClassIdentifier: 
+  title: The rack
+  description: The primogenes wants to know if you want to have a rack inside the
+    domain, for the vampires in need
+  characterImage: {fileID: 0}
+  leftChoice:
+    text: Yes, we will help the ones in need.
+    reactionaryValue: 0
+    progressiveValue: 1
+    masqueradeValue: -5
+    boonValue: 0
+    anarchValue: 4
+    addCard: {fileID: 11400000, guid: f4e2cd6d06b1bf2478664e137b0ba341, type: 2}
+    howToAddCard: 3
+  rightChoice:
+    text: No. It causes too much trouble.
+    reactionaryValue: 0
+    progressiveValue: 0
+    masqueradeValue: 5
+    boonValue: 0
+    anarchValue: -5
+    addCard: {fileID: 11400000, guid: b9d57a7001f26d54b819c920520d4897, type: 2}
+    howToAddCard: 3
